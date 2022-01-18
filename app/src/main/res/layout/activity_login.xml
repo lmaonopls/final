@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/appNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="JOKER ASSISTANT"
+        android:textStyle="bold"
+        android:textColor="#B4FFFFFF"
+        android:background="@drawable/joker_assistant"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="80dp"
+        android:textSize="40sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/loginEmailView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/joker_assistant"
+            android:hint="E-mail"
+            android:textColorHint="#72FFFFFF"
+            android:textColor="#C5F1B9"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+        </EditText>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/loginPasswordView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/joker_assistant"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#D5FFFFFF"
+            android:textColorHint="#72FFFFFF"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/recoverPasswordButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recover Password"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textColor="#D5FFFFFF"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginVertical="10dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/registrationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registration"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textColor="#D5FFFFFF"
+            android:layout_marginHorizontal="100dp"
+            android:layout_marginVertical="10dp">
+
+        </Button>
+
+        <Button
+            android:id="@+id/logInButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textColor="#D5FFFFFF"
+            android:layout_marginHorizontal="130dp"
+            android:layout_marginVertical="10dp">
+
+        </Button>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

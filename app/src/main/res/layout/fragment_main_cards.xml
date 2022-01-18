@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp">
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginHorizontal="2dp">
+
+            <ImageButton
+
+                android:id="@+id/aceHeart"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/ace_of_hearts"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/kingHeart"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/king_of_hearts"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/queenHeart"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/queen_of_hearts"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/jackHeart"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/jack_of_hearts"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/tenHeart"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/ten_of_hearts"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/nineHeart"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/nine_of_hearts"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/eightHeart"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/eight_of_hearts"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/sevenHeart"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/seven_of_hearts"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/sixHeart"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/six_of_hearts"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginHorizontal="2dp">
+
+            <ImageButton
+
+                android:id="@+id/aceSpades"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/ace_of_spades"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/kingSpades"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/king_of_spades"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/queenSpades"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/queen_of_spades"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/jackSpades"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/jack_of_spades"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/tenSpades"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/ten_of_spades"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/nineSpades"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/nine_of_spades"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/eightSpades"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/eight_of_spades"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/sevenSpades"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/seven_of_spades"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <Button
+
+                android:id="@+id/jokerOne"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_white"
+                android:text="jk"
+                android:textAlignment="center"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginHorizontal="2dp">
+
+            <ImageButton
+
+                android:id="@+id/aceClubs"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/ace_of_clubs"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/kingClubs"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/king_of_clubs"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/queenClubs"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/queen_of_clubs"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/jackClubs"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/jack_of_clubs"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/tenClubs"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/ten_of_clubs"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/nineClubs"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/nine_of_clubs"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="1dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/eightClubs"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/eight_of_clubs"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/sevenClubs"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_black"
+                android:src="@drawable/seven_of_clubs"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <Button
+
+                android:id="@+id/jokerTwo"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_white"
+                android:text="jk"
+                android:textAlignment="center"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </Button>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginHorizontal="2dp">
+
+            <ImageButton
+
+                android:id="@+id/aceDiamonds"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/ace_of_diamonds"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/kingDiamonds"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/king_of_diamonds"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/queenDiamonds"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/queen_of_diamonds"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/jackDiamonds"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/jack_of_diamonds"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/tenDiamonds"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/ten_of_diamonds"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/nineDiamonds"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/nine_of_diamonds"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/eightDiamonds"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/eight_of_diamonds"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/sevenDiamonds"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/seven_of_diamonds"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+            <ImageButton
+
+                android:id="@+id/sixDiamonds"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:background="@drawable/button_red"
+                android:src="@drawable/six_of_diamonds"
+                android:scaleType="fitXY"
+                android:layout_marginVertical="2dp">
+
+            </ImageButton>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="reset"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textColor="@color/white">
+
+    </Button>
+
+</LinearLayout>

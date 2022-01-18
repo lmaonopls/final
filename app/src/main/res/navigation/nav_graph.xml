@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainCardsFragment">
+
+    <fragment
+        android:id="@+id/MainCardsFragment"
+        android:name="com.example.final_exam.Fragments.MainCardsFragment"
+        android:label="MainCardsFragment"
+        tools:layout="@layout/fragment_main_cards">
+
+    </fragment>
+    <fragment
+        android:id="@+id/OptionFragment"
+        android:name="com.example.final_exam.Fragments.OptionFragment"
+        android:label="OptionFragment"
+        tools:layout="@layout/fragment_option">
+
+        <action
+            android:id="@+id/action_OptionFragment_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.final_exam.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+</navigation>

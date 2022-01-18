@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/bg2"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/RegistrationNameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="REGISTRATION"
+        android:textColor="#B4FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/joker_assistant"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:textSize="40sp">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:layout_marginHorizontal="10dp">
+
+            <EditText
+
+                android:id="@+id/firstNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="First Name"
+                android:background="@drawable/joker_assistant"
+                android:textColorHint="#72FFFFFF"
+                android:textColor="#C5F1B9"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_margin="10dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/lastNameView"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:hint="Last Name"
+                android:background="@drawable/joker_assistant"
+                android:textColorHint="#72FFFFFF"
+                android:textColor="#C5F1B9"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:layout_margin="10dp">
+
+            </EditText>
+
+        </LinearLayout>
+
+        <EditText
+
+            android:id="@+id/registrationEmailView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/joker_assistant"
+            android:textColorHint="#72FFFFFF"
+            android:textColor="#C5F1B9"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:hint="E-mail:">
+
+        </EditText>
+
+        <EditText
+
+
+            android:id="@+id/createPasswordView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/joker_assistant"
+            android:textColorHint="#72FFFFFF"
+            android:textColor="#C5F1B9"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:hint="Create a Password:">
+
+        </EditText>
+
+        <EditText
+
+            android:id="@+id/repeatPasswordView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/joker_assistant"
+            android:textColorHint="#72FFFFFF"
+            android:textColor="#C5F1B9"
+            android:textAlignment="center"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:hint="Repeat Password:"
+            android:inputType="textPassword">
+
+        </EditText>
+
+        <CheckBox
+            android:id="@+id/fullAgeChecker"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="I am at least 18 years old or over"
+            android:background="@drawable/joker_assistant"
+            android:gravity="center"
+            android:textColor="#C5F1B9"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp">
+
+        </CheckBox>
+
+        <CheckBox
+            android:id="@+id/conditionChecker"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:text="I Accept Terms And Conditions"
+            android:background="@drawable/joker_assistant"
+            android:gravity="center"
+            android:textColor="#C5F1B9"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp">
+
+        </CheckBox>
+
+        <Button
+
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textColor="#D5FFFFFF"
+            android:layout_marginHorizontal="130dp"
+            android:layout_marginVertical="10dp"
+            android:text="submit"
+            android:textSize="15sp">
+
+        </Button>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
